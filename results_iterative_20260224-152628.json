@@ -1,0 +1,63 @@
+{
+    "shapley_values_iterative": {
+        "1_acal": 2.093234064336141,
+        "2_acar": 1.1675463298266913,
+        "5_llsl": 3.134785499304066,
+        "6_llsr": 1.2316885042511172,
+        "7_mcafl": 1.828278128303724,
+        "8_mcafr": 1.278261571086662,
+        "11_mcatl": 2.026635694594769,
+        "15_mcail": 2.126743080659145,
+        "21_pctpl": 2.1044184592079755,
+        "rob": 1.269434456691222
+    },
+    "shapley_values_iterative_standard_deviation": {
+        "1_acal": 1.2810331993156072,
+        "2_acar": 0.5871949832741127,
+        "5_llsl": 1.3470769920078776,
+        "6_llsr": 1.3152643605886751,
+        "7_mcafl": 1.2958825411493593,
+        "8_mcafr": 1.6725465259425416,
+        "11_mcatl": 1.3653199648525722,
+        "15_mcail": 1.5656854701656142,
+        "21_pctpl": 0.8985278518406788,
+        "rob": 1.3046209321288391
+    },
+    "Rest of Brain": [
+        "19_pcaol",
+        "17_pcatl",
+        "13_mcaol",
+        "29_icl",
+        "27_scl",
+        "10_mcapl",
+        "28_scr",
+        "30_icr",
+        "24_actpr",
+        "31_lvl",
+        "18_pcatr",
+        "26_br",
+        "14_mcaol",
+        "9_mcapl",
+        "12_mcatl",
+        "23_actpl",
+        "25_bl",
+        "32_lvr",
+        "20_pcaor",
+        "4_mlsr",
+        "3_mlsl",
+        "16_mcail",
+        "22_pctpr"
+    ],
+    "accuracy": 0.06673728813559322,
+    "f1": 0.03304245912134134,
+    "r2": 0.5420270471572757,
+    "model used": "Random Forest Regressor",
+    "model_params": {
+        "bootstrap": true,
+        "max_depth": 7,
+        "max_features": "log2",
+        "min_samples_leaf": 4,
+        "min_samples_split": 4,
+        "n_estimators": 48
+    }
+}
